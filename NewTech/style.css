@@ -1,0 +1,677 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --color-primary : #f8d508;
+    --color-secondry : #37393a;
+    --color-btn : #3e454b;
+    --color-para : #858585;
+
+    --font-primary: 'Poppins';
+    --font-secondry: 'Montserrat';
+
+}
+
+
+body{
+    font-family: var(--font-secondry);
+    font-weight: 500;
+    color: var(--color-secondry);
+}
+
+.l-para{
+    font-family: var(--font-secondry);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-para);
+    line-height: 20px;
+}
+
+.l-h-100{
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bx-sh-none{
+    box-shadow: none;
+}
+
+.bx-sh-none:hover{
+    box-shadow: none;
+}
+
+.bx-sh-none:focus{
+    box-shadow: none;
+}
+ 
+.l-bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.l-padding{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+ 
+
+/* ---------------------------------------------------------------header top */
+
+.l-header-top{
+    background-color: var(--color-primary);
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    
+}
+
+.h-t-li, .h-t-li:hover {
+    color: var(--color-secondry);
+    margin-right: 4px; 
+}
+
+
+
+/* ---------------------------------------------------------------header top */
+
+/* ---------------------------------------------------------------header bottom */
+
+.h-header-bottoom{
+    display: flex;
+    align-items: center;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: var(--color-primary);
+
+}
+
+.h-logo{
+    font-family: var(--font-secondry);
+    font-weight: 800;
+    font-size: large;
+
+}
+
+.h-logo-lg{
+    font-family: var(--font-secondry);
+    font-weight: 800;
+    font-size: x-large;
+
+}
+
+.input-search-lg{
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.input-search-lg:focus{
+    box-shadow: none;
+}
+
+.input-group-text{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: var(--color-btn);
+
+
+
+    border: 0px;
+    border-radius: 5px;
+}
+
+.h-btm-icons{
+    border: none;
+    background-color: #37393a00;
+    padding: 0px;
+    font-size: 20px;
+    color: var(--color-secondry);
+    margin-left: 10px;
+}
+
+.badge{
+    font-size: 9px;    
+}
+
+.l-mobile-search{
+
+    border-top: 1px solid rgba(0, 0, 0, 0.137);
+    background-color: var(--color-primary);
+    
+}
+
+
+/* ---------------------------------------------------------------header bottom */
+
+/* ---------------------------------------------------------------header nav */
+
+
+.l-nav{
+    font-size: 15px;
+}
+
+.l-nav-links{
+    color: var(--color-secondry);
+}
+
+
+/* ---------------------------------------------------------------header nav */
+
+/* ---------------------------------------------------------------Banner */
+
+
+
+.l-ourApp-left1{
+
+    background-image: url("./Images/ocarousel1.png");
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.l-ourApp-right1{
+    background-image: url("./Images/ocarousel2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.l-btm-banner{
+    height: 400px;
+
+    background-image: url("./Images/13163326_5052124.jpg");
+   background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.l-btm-banner-sm{
+    height: 250px;
+
+    background-image: url("./Product_Images/right_Banner.png");
+   background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+ 
+/* ---------------------------------------------------------------Banner */
+
+/* ---------------------------------------------------------------Why choose us */
+
+
+
+.l-chooce-icon{
+    font-size: 50px;
+    color: var(--color-para);
+}
+
+.l-chooce-head{
+    font-family: var(--font-primary);
+    font-size: 17px;
+    font-weight: bold;    
+}
+
+/* ---------------------------------------------------------------Why choose us */
+
+/* ---------------------------------------------------------------Latest Products */
+
+.l-card{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+ 
+.l-card-imag{
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.l-card-title{
+    font-family: var(--font-secondry);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.l-ratings{
+    color: var(--color-primary);
+    font-size: 13px;
+}
+
+.l-para2{
+    font-size: 12px;
+    font-family: var(--font-secondry);
+    color: var(--color-para);
+}
+
+.l-card-price{
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------------------Latest Products */
+
+/* ---------------------------------------------------------------Side Card */
+
+.l-side-card{
+    /* background-color: #ebeef049; */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.l-side-card-title{
+    font-family: var(--font-secondry);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* ---------------------------------------------------------------Side Card */
+
+/* ---------------------------------------------------------------Our App */
+
+.l-ourApp-left{
+    background-color: blue;
+    background-color: var(--color-primary);
+}
+
+.l-ourApp-left-img{
+    background-image: url("./Images/e-books-removebg-preview.png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.l-app-side-text{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.l-app-side-text:hover{
+    color: rgb(0, 0, 0);
+}
+
+.l-ourApp-right{
+    background-image: url("./Product_Images/pexels-min-an-694740.jpg");
+    box-shadow: rgba(0, 0, 0, 0.445) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.452) 0px 18px 36px -18px inset;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* ---------------------------------------------------------------Our App */
+
+/* ---------------------------------------------------------------Categories */
+
+.l-cat-card{
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+
+   
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+
+
+
+
+}
+
+.l-ccrd1{
+    background-image: url("./Product_Images/novels.jpg");
+    box-shadow: rgba(0, 0, 0, 0.445) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.452) 0px 18px 36px -18px inset;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.l-ccrd2{
+    background-image: url("./Product_Images/Interstellar1.jpg");
+    background-size: cover;
+    background-position: top;
+    box-shadow: rgba(0, 0, 0, 0.445) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.452) 0px 18px 36px -18px inset;
+    background-repeat: no-repeat;
+}
+
+
+.l-ccrd3{
+    background-image: url("./Product_Images/historical.jpg");
+    background-size: cover; 
+    box-shadow: rgba(0, 0, 0, 0.445) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.452) 0px 18px 36px -18px inset;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.l-ccrd4{
+    background-image: url("./Product_Images/adventure.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* ---------------------------------------------------------------Categories */
+
+
+
+/* ---------------------------------------------------------------Our Partners */
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+
+
+
+/* ---------------------------------------------------------------Our Partners */
+
+.l-carousel-item{
+    height: 100px;
+}
+
+/* ---------------------------------------------------------------Our Partners */
+
+/* ---------------------------------------------------------------Footer */
+
+.l-footer{
+    background-color: var(--color-primary);
+}
+
+.l-foot-logo{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.l-foot-about-para{
+    font-family: var(--font-secondry);
+    font-size: 15px;
+
+    color: var(--color-secondry);
+}
+
+.l-foot-about-para:hover{
+    color: black;
+}
+
+.l-foot-links {
+    font-family: var(--font-secondry);
+    font-size: 15px;
+}
+ 
+
+.l-foot-email{
+    border: 0px;
+    font-family: var(--font-secondry);
+    font-size: 14px;
+}
+
+.l-foot-email:focus{
+    box-shadow: none;
+}
+
+.l-dark-btn{
+    background-color: var(--color-btn);
+}
+
+/* ---------------------------------------------------------------Footer */
+
+/* ---------------------------------------------------------------Sign In */
+
+.l-sign-left-div{
+    background-color: var(--color-primary);
+    background-image: url("./Images/16679203_5774968.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+.l-btn-social{
+    background-color: #d3d5d6c9;
+}
+
+.l-sign-input{
+    border: 1px solid #d3d5d6;
+    font-size: 14px;
+    font-family: var(--font-secondry);
+    font-weight: 500;
+    background-color: #d3d5d663;
+
+}
+
+.l-sign-input:focus{
+    box-shadow: none;
+}
+
+.l-terms-para{
+    font-size: 13px;
+    color: var(--color-btn);
+}
+
+
+/* ---------------------------------------------------------------Sign In */
+
+/* ---------------------------------------------------------------Product Listing */
+
+.l-bg-primary{
+    background-color: var(--color-primary);
+}
+
+.l-addProduct-img{
+    border-radius: 5px  ;
+}
+
+.bi-image-fill{
+    font-size: 50px;
+}
+
+.listing-header-side{
+    background-image: url("./Images/16679203_5774968.jpg");
+    background-size: cover;
+}
+
+
+/* ---------------------------------------------------------------Product Listing */
+
+/* ---------------------------------------------------------------Single Product View */
+
+.l-single-images{
+    /* background-color: rgba(0, 0, 0, 0); */
+    /* background-color: gainsboro; */
+    border: none;
+
+    /* border: 1px solid var(--color-para); */
+}
+
+
+.l-single-description{
+    font-family: var(--font-primary);
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--color-para);
+    font-weight: 400;
+}
+
+.l-clr-btn{
+    padding: 12px;
+    border-radius: 100px;
+}
+
+.l-model-btn{
+    font-family: var(--font-secondry);
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #cec8c896;
+}
+
+.l-qty-btn{
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 1px solid #d3d5d6;
+    border-radius: 4px;
+}
+
+.l-qty-btn:focus{
+    box-shadow: none;
+}
+
+.l-qty{
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 5px;
+
+}
+
+.l-btn-heart{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid red;
+}
+
+
+
+/* ---------------------------------------------------------------Single Product View */
+
+/* ---------------------------------------------------------------Advanced Search */
+
+.l-search-select{
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 0, 0, 0);
+}
+ 
+.l-src-top{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.l-sch-option{
+    color: black;
+    
+
+}
+
+.l-sch-option:hover{
+    background-color: var(--color-btn);
+    color: white;
+}
+
+.l-filter{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+ 
+.l-check-input{
+    width: 14px;
+    height: 14px;
+    accent-color: var(--color-secondry);
+
+}
+
+.l-filter-text{
+    font-family: var(--font-secondry);
+    font-size: 14px;
+    color: #383737;
+}
+
+
+
+
+
+/* ---------------------------------------------------------------Advanced Search */
+
+/* ---------------------------------------------------------------Payment */
+
+.l-payemt-info{
+    background-color: #f8f9fa;
+}
+
+.bi-circle-fill{
+    font-size: 8px;
+    letter-spacing: 3px;
+}
+
+
+/* ---------------------------------------------------------------Payment */
+
+/* ---------------------------------------------------------------Off canvas */
+
+.offcanvas-header{
+    background-color: var(--color-primary);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+ 
+/* ---------------------------------------------------------------Off canvas */
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
